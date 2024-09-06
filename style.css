@@ -522,13 +522,13 @@
   
   /* .preload > * { transition: var(--transition-1); } */
   
-  /* .preload.loaded > * { opacity: 0; }
+  /* .preload.loaded > * { opacity: 0; } */
   
   .preload.loaded {
     transition-delay: 250ms;
     transform: translateY(100%);
   }
-   */
+  
   .circle {
     width: 112px;
     height: 112px;
