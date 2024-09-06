@@ -471,7 +471,7 @@
   
   .input-field::placeholder { color: inherit; }
   
-  .input-field:focus { border-color: var(--gold-crayola); }
+  .input-field:focus { border-color: rgb(4, 255, 0); }
   
   .icon-wrapper {
     position: relative;
