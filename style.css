@@ -364,7 +364,7 @@
   }
   
   .btn-secondary {
-    background-color: var(--gold-crayola);
+    background-color: rgb(4, 255, 0);
     color: var(--black);
   }
   
@@ -423,7 +423,7 @@
   }
   
   .btn-text {
-    color: var(--gold-crayola);
+    color: rgb(4, 255, 0);
     padding-block-end: 4px;
     margin-inline: auto;
     text-transform: uppercase;
