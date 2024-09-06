@@ -1,13 +1,13 @@
-// const preloader = document.querySelector("[data-preaload]");
+const preloader = document.querySelector("[data-preload]");
 
-// window.addEventListener("load", function () {
-//   preloader.classList.add("loaded");
-//   document.body.classList.add("loaded");
-// });
-
-window.addEventListener('load', function () {
-  document.querySelector('.preload').classList.add('loaded');
+window.addEventListener("load", function () {
+  preloader.classList.add("loaded");
+  document.body.classList.add("loaded");
 });
+
+// window.addEventListener('load', function () {
+//   document.querySelector('.preload').classList.add('loaded');
+// });
 
 
 
