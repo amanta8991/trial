@@ -512,21 +512,21 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(255, 183, 0);
-    z-index: 10;
+    background-color: rgb(102, 0, 255);
+    z-index: 20;
     display: grid;
     place-content: center;
     justify-items: center;
     transition: var(--transition-2);
   }
   
-  /* .preload > * { transition: var(--transition-1); } */
+  .preload > * { transition: var(--transition-1); }
   
-  /* .preload.loaded > * { opacity: 0; } */
+  .preload.loaded > * { opacity: 0; }
   
   .preload.loaded {
     transition-delay: 250ms;
-    transform: translateY(100%);
+    transform: translateY(500%);
   }
   
   .circle {
