@@ -300,7 +300,7 @@
 
   .section-subtitle {
     position: relative;
-    color: var(--gold-crayola);
+    color: rgb(4, 255, 0);
     font-weight: var(--weight-bold);
     text-transform: uppercase;
     letter-spacing: var(--letterSpacing-2);
