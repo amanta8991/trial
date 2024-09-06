@@ -252,7 +252,7 @@
   .separator {
     width: 8px;
     height: 8px;
-    border: 1px solid var(--gold-crayola);
+    border: 1px solid rgb(4, 255, 0);;
     transform: rotate(45deg);
   }
   
